@@ -1,0 +1,35 @@
+header{
+    padding: 40px 120px;
+    background-color: #FFF;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+a, a:hover{
+    color: #9E9AAB;
+    /* font-weight: bold; */
+}
+
+ 
+button{
+    background-color: #2BD0D0;
+    border-style:none;
+    padding: 10px 25px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 25px;
+
+}

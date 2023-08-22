@@ -1,0 +1,31 @@
+.link_body{
+    background-image: url('../../assets/images/bg-shorten-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3A3054;
+    padding: 50px 60px;
+    display:flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin: -90px 160px 160px 160px;
+    gap: 23px;
+}
+
+.one{
+    flex: 3 1 0;
+}
+
+.two{
+    flex: 1 1 0;
+}
+
+input {
+    padding: 14px 32px;
+    font-size: 20px;
+    font-weight: medium;
+    border-radius: 10px;
+    border-style: none;
+}
+.sbmtbtn{
+    border-radius: 10px;
+}

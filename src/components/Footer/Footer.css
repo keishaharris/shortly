@@ -1,0 +1,29 @@
+footer{
+    background-color: #232127;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 160px
+}
+
+.footer_img{
+    filter:invert(100%) sepia(100%) saturate(0%) hue-rotate(320deg) brightness(107%) contrast(102%);
+}
+
+.footer_middle{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.footer_middle li {
+    list-style-type: none;
+    padding: 5px;
+    color: #bfbfbf;
+    font-size: 16px;;
+}
+
+.footer_right{
+    display: flex;
+    gap: 24px;
+}
