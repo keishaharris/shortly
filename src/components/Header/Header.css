@@ -17,6 +17,10 @@ nav div{
     gap: 40px;
 }
 
+.nav_links:hover{
+    color: #34313D;
+}
+
 a, a:hover{
     color: #9E9AAB;
     /* font-weight: bold; */

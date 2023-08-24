@@ -11,13 +11,13 @@ const Header = () => {
                         <img src={Logo} alt='brand logo'/>
                     </div>
                     <div>
-                        <a href="#"> Features </a>
-                        <a href="#"> Pricing </a>
-                        <a href="#"> Resources </a>
+                        <a href="#" className='nav_links'> Features </a>
+                        <a href="#" className='nav_links'> Pricing </a>
+                        <a href="#" className='nav_links'> Resources </a>
                     </div>
                 </div>
                 <div>
-                        <a href="#"> Login </a>
+                        <a href="#" className='nav_links'> Login </a>
                         <button> Sign Up</button>
                 </div>
             </nav>

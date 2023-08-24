@@ -17,35 +17,35 @@ const Footer = () => {
                 
                     <h5>Features</h5>
                     <ul>
-                        <li> Link Shortening</li>
-                        <li> Branded Links</li>
-                        <li> Analytics</li>
+                        <li> <a href="#" className='footer_link'> Link Shortening </a></li>
+                        <li> <a href="#" className='footer_link'>Branded Links</a></li>
+                        <li> <a href="#" className='footer_link'>Analytics</a></li>
                     </ul>
             </div>
             <div className='footer_middle'>
                 
                     <h5>Resources</h5>
                     <ul>
-                        <li> Blog</li>
-                        <li> Developers</li>
-                        <li> Support</li>
+                        <li> <a href="#" className='footer_link'>Blog</a></li>
+                        <li> <a href="#" className='footer_link'>Developers</a></li>
+                        <li> <a href="#" className='footer_link'>Support</a></li>
                     </ul>
             </div>
             <div className='footer_middle'>
                 
                     <h5>Company</h5>
                     <ul>
-                        <li> About</li>
-                        <li> Our Team</li>
-                        <li> Careers</li>
-                        <li> Contact</li>
+                        <li> <a href="#" className='footer_link'>About</a></li>
+                        <li> <a href="#" className='footer_link'>Our Team</a></li>
+                        <li> <a href="#" className='footer_link'>Careers</a></li>
+                        <li> <a href="#" className='footer_link'>Contact</a></li>
                     </ul>
             </div>
             <div className="footer_right">
-                <span> <img src={Facebook} alt="Facebook Logo" /> </span>
-                <span> <img src={Twitter} alt="Twitter Logo" />  </span>
-                <span> <img src={Pinterest} alt="Pinterest Logo" />  </span>
-                <span> <img src={Instagram} alt="Instagram Logo" />  </span>
+                <span> <img src={Facebook} alt="Facebook Logo" className='footer_socials'/> </span>
+                <span> <img src={Twitter} alt="Twitter Logo" className='footer_socials'/>  </span>
+                <span> <img src={Pinterest} alt="Pinterest Logo" className='footer_socials'/>  </span>
+                <span> <img src={Instagram} alt="Instagram Logo" className='footer_socials'/>  </span>
 
             </div>
 

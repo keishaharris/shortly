@@ -19,11 +19,25 @@ footer{
 .footer_middle li {
     list-style-type: none;
     padding: 5px;
+
+}
+
+.footer_link{
     color: #bfbfbf;
     font-size: 16px;;
 }
 
+.footer_link:hover{
+    color: #2BD0D0;
+}
+
 .footer_right{
     display: flex;
+    justify-content: center;
     gap: 24px;
+}
+
+.footer_socials:hover{
+    filter: brightness(0) saturate(100%) invert(83%) sepia(70%) saturate(716%) hue-rotate(130deg) brightness(87%) contrast(86%);
+    cursor: pointer;
 }

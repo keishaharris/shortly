@@ -3,12 +3,26 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #3A3054;
-    padding: 50px 60px;
+    padding: 50px 60px 40px 60px;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     border-radius: 10px;
     margin: -90px 160px 160px 160px;
+    gap: 8px;
+}
+
+.link_top{
+    display:flex;
+    flex-direction: row;
     gap: 23px;
+}
+
+.link_bottom{
+    color: #F46363;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: lighter;
+    letter-spacing: 0.11px;
 }
 
 .one{

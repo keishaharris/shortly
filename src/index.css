@@ -355,7 +355,7 @@ small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, l
   padding: 0;
   border: 0;
   box-sizing: border-box;
-  font-size: 100%;
+  font-size: 18px;
   font-family: 'Poppins', sans-serif;
   color: #9E9AA8;
   vertical-align: baseline;
@@ -372,6 +372,10 @@ a{
 
 button{
   cursor:pointer;
+}
+
+button:hover{
+  background-color: #9AE3E3
 }
 
 .lrgbtn{
@@ -408,4 +412,21 @@ h5{
   letter-spacing: 0.25px;
   font-size: 16px;
   color: #FFF;
+}
+
+.error{
+  color:red;
+}
+
+ input:focus{
+  outline: none;
+  border: 2px solid #F46363;
+}
+
+@media (any-hover: hover){
+  button:hover, 
+  .nav_links:hover, 
+  .footer_link:hover{
+    transition: 1s;
+  }
 }

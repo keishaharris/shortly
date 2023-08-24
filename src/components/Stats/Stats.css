@@ -5,6 +5,7 @@
     justify-content:center;
     align-items: center;
     padding:0px 160px 120px 160px;
+    margin-top: -50px;
 }
 
 .divider{
@@ -67,7 +68,7 @@
 
 .stat_card{
     background-color: #FFF;
-    padding: 70px 32px;
+    padding: 80px 32px 50px 32px;
     display: flex;
     flex-direction: column;
     gap: 12px;
