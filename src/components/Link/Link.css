@@ -7,7 +7,7 @@
     display:flex;
     flex-direction: column;
     border-radius: 10px;
-    margin: -90px 160px 160px 160px;
+    margin: -90px 160px 16px 160px;
     gap: 8px;
 }
 
@@ -42,4 +42,68 @@ input {
 }
 .sbmtbtn{
     border-radius: 10px;
+}
+
+.empty::placeholder{
+    color: #F46363;
+}
+
+.link_collection{
+    margin-bottom: 165px;
+}
+
+.clipboard{
+    background-color: #fff;
+    padding: 18px 32px;
+    margin: 0px 165px 16px 165px;
+}
+
+.clip_body{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clip_left{
+   
+}
+
+.clip_left > p, .clip_right > p  {
+    font-size: 20px;
+    color: #34313D;
+}
+.clip_right{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.clip_right > p {
+    color: #2BD0D0;
+}
+
+@media only screen and (max-width:980px){
+    .link_body{
+        margin: -90px 24px 0px 24px;
+        padding: 24px;
+       
+    }
+    .link_top{
+        flex-direction: column;
+        gap:16px;
+    }
+
+    input{
+        padding: 16px 10px;
+        border-radius: mixed;
+    }
+
+    .sbmtbtn{
+        padding: 16px 10px;
+        border-radius: 5px;
+    }
+
 }
