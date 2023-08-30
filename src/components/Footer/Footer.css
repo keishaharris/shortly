@@ -41,3 +41,14 @@ footer{
     filter: brightness(0) saturate(100%) invert(83%) sepia(70%) saturate(716%) hue-rotate(130deg) brightness(87%) contrast(86%);
     cursor: pointer;
 }
+
+@media only screen and (max-width: 980px) {
+    footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+    }
+
+
+}

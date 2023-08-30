@@ -1,20 +1,31 @@
 header{
-    padding: 40px 120px;
+    
     background-color: #FFF;
-
+    display: flex;
+    flex-direction: row;
 }
 
-nav{
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 120px;
+}
+
+.header_body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap: 40px;
 }
 
-nav div{
+.nav_menu{
     display: flex;
-    align-items: center;
     gap: 40px;
+    align-items: center;
 }
 
 .nav_links:hover{
@@ -37,3 +48,4 @@ button{
     border-radius: 25px;
 
 }
+

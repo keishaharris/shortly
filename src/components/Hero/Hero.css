@@ -22,3 +22,27 @@
     line-height: 36px;
 }
 
+@media only screen and (max-width: 980px) {
+    .hero_body{
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 0px 24px 125px 24px;
+        gap: 20px;
+    }
+
+    .hero_left{
+        text-align: center;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .hero_description{
+        font-size: 18px;
+    }
+
+    .hero_right img{
+        width:100vw;
+        height: auto;
+
+    }
+}
